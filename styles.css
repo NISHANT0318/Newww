@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root{
+    --primary-color: rgb(29, 155, 240);
+    --dark-grey: #475569;
+    --off-white:#f3f4f6;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    margin: 0rem 4rem;
+}
+
+hr{
+    margin: 2rem 0rem;
+}
+
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+
+.link{
+    text-decoration: none;
+    padding:0.5rem 1rem ;
+
+}
+
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 2rem;
+    color: white;
+}
+
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 2rem;
+    border: 1px solid var(--primary-color);
+
+}
+.list-non-bullet{
+    list-style: none;
+
+}
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.navigation ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.navigation .nav-pills{
+    text-align: right;
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
+
+.hero{
+    padding: 2rem;
+    padding-top: 4rem;
+    
+
+}
+
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--dark-grey)
+}
+
+.hero .heading-inverted{
+    color: var(--primary-color);
+}
+
+.section{
+    
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 2rem;
+    text-align: center;
+    
+}
+.showcase-text{
+    text-align: center;
+}
+
+.section h1{
+    text-align: center;
+}
+
+.ow{
+    background-color: var(--off-white);
+
+}
+
+.footer{
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    border-top-right-radius: 1rem;
+    color: white;
+}
+.footer .footer-header{
+    font-weight: bold;
+    text-align: center;
+    font-size: large;
+}
+
+.footer a{
+ color: white;
+}
+
+.project-bt{
+    margin: 0.8rem;
+}
+
+
+@media screen and (max-width:560px){
+
+
+    .navigation .nav-pills{
+        text-align-last: right;
+    }
+
+    .hero .hero-img{
+        max-width: 200px;
+        display: block;
+        margin: auto;
+    }
+
+    .project-bt{
+        display: block;
+        margin: 0.8rem;
+    }
+}
